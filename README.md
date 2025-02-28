@@ -1,5 +1,6 @@
 # **PDF Buddy 📝🤖**  
 本プロジェクトは **RAG（Retrieval-Augmented Generation）** を活用した **PDF 質問応答システム** です。  
+
 アップロードされたPDFから情報を抽出し、関連する文書を検索した上で、生成AI（Gemini API）を用いて回答を生成します。**文書の内容を解析し、根拠に基づいた最適な回答を提供** できます。
 
 ---
@@ -8,10 +9,13 @@
 ✅ **PDF のアップロード**（文章の解析 & 質問回答）  
 ✅ **FastAPI による API 提供**（質問処理 & AI による回答生成）  
 ✅ **Streamlit による UI**（シンプルなユーザーインターフェース）  
-✅ **RAG（Retrieval-Augmented Generation）の利用（自然な文章で回答）**  
-    - ChromaDB を利用した **ベクトル検索（関連情報を検索）**
-    - SentenceTransformer による **埋め込みモデル**
-    - Gemini API による **生成AI**
+✅ **RAG（Retrieval-Augmented Generation）の利用による根拠に基づいた回答**  
+
+- ChromaDB を利用した **ベクトル検索（関連情報を検索）**
+
+- SentenceTransformer による **埋め込みモデル**
+
+- Gemini API による **生成AI**
   
 ---
 
